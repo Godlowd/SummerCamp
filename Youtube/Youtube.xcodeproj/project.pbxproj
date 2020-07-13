@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0809C04F4E1D7BBE995CFE0 /* libPods-Youtube.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FED1448192688845D59521BE /* libPods-Youtube.a */; };
+		D50A70F724B3282D00805136 /* FrontPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A70F624B3282D00805136 /* FrontPageViewController.m */; };
+		D50A70FD24B32A2C00805136 /* DatecellCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A70FC24B32A2C00805136 /* DatecellCollectionViewCell.m */; };
+		D50A710024B32C8F00805136 /* DateCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A70FF24B32C8F00805136 /* DateCollectionViewController.m */; };
+		D50A710324B3633500805136 /* CalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A710224B3633500805136 /* CalendarHeaderView.m */; };
+		D50A710624B3799C00805136 /* DateHeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A710524B3799C00805136 /* DateHeaderCollectionReusableView.m */; };
+		D50A711424B698C500805136 /* FindPageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A711024B698C500805136 /* FindPageTableViewController.m */; };
+		D50A711524B698C500805136 /* FindPageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A711324B698C500805136 /* FindPageTableViewCell.m */; };
+		D50A711B24B6F52E00805136 /* FindPageHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A711A24B6F52E00805136 /* FindPageHeaderView.m */; };
+		D50A711F24B6FD9E00805136 /* GuestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A711E24B6FD9E00805136 /* GuestTableViewController.m */; };
+		D50A712224B6FE7600805136 /* GuestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A712124B6FE7600805136 /* GuestTableViewCell.m */; };
+		D50A712524B7085400805136 /* GuestHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A712424B7085400805136 /* GuestHeaderView.m */; };
+		D50A712824B70F7300805136 /* AddButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A712724B70F7300805136 /* AddButton.m */; };
+		D50A712B24B7FC2600805136 /* GuestFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A712A24B7FC2600805136 /* GuestFooterView.m */; };
+		D50A712F24B98BE600805136 /* CustomSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A712E24B98BE600805136 /* CustomSearchBar.m */; };
+		D50A713D24B9B8F800805136 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A713C24B9B8F800805136 /* CustomButton.m */; };
+		D50A714024BA0F6200805136 /* DateBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A713F24BA0F6200805136 /* DateBottomView.m */; };
+		D584CBE424A40DD80031B0E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D584CBE324A40DD80031B0E4 /* AppDelegate.m */; };
+		D584CBE724A40DD80031B0E4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D584CBE624A40DD80031B0E4 /* SceneDelegate.m */; };
+		D584CBEA24A40DD80031B0E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D584CBE924A40DD80031B0E4 /* ViewController.m */; };
+		D584CBED24A40DD80031B0E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D584CBEB24A40DD80031B0E4 /* Main.storyboard */; };
+		D584CBEF24A40DDC0031B0E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D584CBEE24A40DDC0031B0E4 /* Assets.xcassets */; };
+		D584CBF224A40DDC0031B0E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D584CBF024A40DDC0031B0E4 /* LaunchScreen.storyboard */; };
+		D584CBF524A40DDC0031B0E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D584CBF424A40DDC0031B0E4 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D6857A87C92D6E0E18E506B /* Pods-Youtube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Youtube.release.xcconfig"; path = "Target Support Files/Pods-Youtube/Pods-Youtube.release.xcconfig"; sourceTree = "<group>"; };
+		D50A70F524B3282D00805136 /* FrontPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrontPageViewController.h; sourceTree = "<group>"; };
+		D50A70F624B3282D00805136 /* FrontPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrontPageViewController.m; sourceTree = "<group>"; };
+		D50A70FB24B32A2C00805136 /* DatecellCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatecellCollectionViewCell.h; sourceTree = "<group>"; };
+		D50A70FC24B32A2C00805136 /* DatecellCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatecellCollectionViewCell.m; sourceTree = "<group>"; };
+		D50A70FE24B32C8F00805136 /* DateCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateCollectionViewController.h; sourceTree = "<group>"; };
+		D50A70FF24B32C8F00805136 /* DateCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateCollectionViewController.m; sourceTree = "<group>"; };
+		D50A710124B3633500805136 /* CalendarHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarHeaderView.h; sourceTree = "<group>"; };
+		D50A710224B3633500805136 /* CalendarHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarHeaderView.m; sourceTree = "<group>"; };
+		D50A710424B3799C00805136 /* DateHeaderCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateHeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		D50A710524B3799C00805136 /* DateHeaderCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateHeaderCollectionReusableView.m; sourceTree = "<group>"; };
+		D50A711024B698C500805136 /* FindPageTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindPageTableViewController.m; sourceTree = "<group>"; };
+		D50A711124B698C500805136 /* FindPageTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindPageTableViewController.h; sourceTree = "<group>"; };
+		D50A711224B698C500805136 /* FindPageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindPageTableViewCell.h; sourceTree = "<group>"; };
+		D50A711324B698C500805136 /* FindPageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindPageTableViewCell.m; sourceTree = "<group>"; };
+		D50A711924B6F52E00805136 /* FindPageHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindPageHeaderView.h; sourceTree = "<group>"; };
+		D50A711A24B6F52E00805136 /* FindPageHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindPageHeaderView.m; sourceTree = "<group>"; };
+		D50A711D24B6FD9E00805136 /* GuestTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuestTableViewController.h; sourceTree = "<group>"; };
+		D50A711E24B6FD9E00805136 /* GuestTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuestTableViewController.m; sourceTree = "<group>"; };
+		D50A712024B6FE7600805136 /* GuestTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuestTableViewCell.h; sourceTree = "<group>"; };
+		D50A712124B6FE7600805136 /* GuestTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuestTableViewCell.m; sourceTree = "<group>"; };
+		D50A712324B7085400805136 /* GuestHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuestHeaderView.h; sourceTree = "<group>"; };
+		D50A712424B7085400805136 /* GuestHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuestHeaderView.m; sourceTree = "<group>"; };
+		D50A712624B70F7300805136 /* AddButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddButton.h; sourceTree = "<group>"; };
+		D50A712724B70F7300805136 /* AddButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddButton.m; sourceTree = "<group>"; };
+		D50A712924B7FC2600805136 /* GuestFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuestFooterView.h; sourceTree = "<group>"; };
+		D50A712A24B7FC2600805136 /* GuestFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuestFooterView.m; sourceTree = "<group>"; };
+		D50A712D24B98BE600805136 /* CustomSearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomSearchBar.h; sourceTree = "<group>"; };
+		D50A712E24B98BE600805136 /* CustomSearchBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomSearchBar.m; sourceTree = "<group>"; };
+		D50A713B24B9B8F800805136 /* CustomButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		D50A713C24B9B8F800805136 /* CustomButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		D50A713E24BA0F6200805136 /* DateBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateBottomView.h; sourceTree = "<group>"; };
+		D50A713F24BA0F6200805136 /* DateBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateBottomView.m; sourceTree = "<group>"; };
+		D584CBDF24A40DD80031B0E4 /* Youtube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Youtube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D584CBE224A40DD80031B0E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D584CBE324A40DD80031B0E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D584CBE524A40DD80031B0E4 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D584CBE624A40DD80031B0E4 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D584CBE824A40DD80031B0E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D584CBE924A40DD80031B0E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D584CBEC24A40DD80031B0E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D584CBEE24A40DDC0031B0E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D584CBF124A40DDC0031B0E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D584CBF324A40DDC0031B0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D584CBF424A40DDC0031B0E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC241386107E4A23D3CEED61 /* Pods-Youtube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Youtube.debug.xcconfig"; path = "Target Support Files/Pods-Youtube/Pods-Youtube.debug.xcconfig"; sourceTree = "<group>"; };
+		FED1448192688845D59521BE /* libPods-Youtube.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Youtube.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D584CBDC24A40DD80031B0E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0809C04F4E1D7BBE995CFE0 /* libPods-Youtube.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01E8BA3599A287266042C3F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC241386107E4A23D3CEED61 /* Pods-Youtube.debug.xcconfig */,
+				4D6857A87C92D6E0E18E506B /* Pods-Youtube.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7B794EB91679D1A9E7B1E0B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FED1448192688845D59521BE /* libPods-Youtube.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D50A710724B37A9E00805136 /* AddDate */ = {
+			isa = PBXGroup;
+			children = (
+				D50A70FB24B32A2C00805136 /* DatecellCollectionViewCell.h */,
+				D50A70FC24B32A2C00805136 /* DatecellCollectionViewCell.m */,
+				D50A70FE24B32C8F00805136 /* DateCollectionViewController.h */,
+				D50A70FF24B32C8F00805136 /* DateCollectionViewController.m */,
+				D50A710424B3799C00805136 /* DateHeaderCollectionReusableView.h */,
+				D50A710524B3799C00805136 /* DateHeaderCollectionReusableView.m */,
+				D50A710124B3633500805136 /* CalendarHeaderView.h */,
+				D50A710224B3633500805136 /* CalendarHeaderView.m */,
+				D50A713E24BA0F6200805136 /* DateBottomView.h */,
+				D50A713F24BA0F6200805136 /* DateBottomView.m */,
+			);
+			path = AddDate;
+			sourceTree = "<group>";
+		};
+		D50A711824B69F3400805136 /* FindPage */ = {
+			isa = PBXGroup;
+			children = (
+				D50A711224B698C500805136 /* FindPageTableViewCell.h */,
+				D50A711324B698C500805136 /* FindPageTableViewCell.m */,
+				D50A711124B698C500805136 /* FindPageTableViewController.h */,
+				D50A711024B698C500805136 /* FindPageTableViewController.m */,
+				D50A711924B6F52E00805136 /* FindPageHeaderView.h */,
+				D50A711A24B6F52E00805136 /* FindPageHeaderView.m */,
+			);
+			name = FindPage;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D50A711C24B6FD7A00805136 /* AddGuests */ = {
+			isa = PBXGroup;
+			children = (
+				D50A711D24B6FD9E00805136 /* GuestTableViewController.h */,
+				D50A711E24B6FD9E00805136 /* GuestTableViewController.m */,
+				D50A712024B6FE7600805136 /* GuestTableViewCell.h */,
+				D50A712124B6FE7600805136 /* GuestTableViewCell.m */,
+				D50A712324B7085400805136 /* GuestHeaderView.h */,
+				D50A712424B7085400805136 /* GuestHeaderView.m */,
+				D50A712624B70F7300805136 /* AddButton.h */,
+				D50A712724B70F7300805136 /* AddButton.m */,
+				D50A712924B7FC2600805136 /* GuestFooterView.h */,
+				D50A712A24B7FC2600805136 /* GuestFooterView.m */,
+			);
+			path = AddGuests;
+			sourceTree = "<group>";
+		};
+		D50A712C24B98B8900805136 /* FrontPage */ = {
+			isa = PBXGroup;
+			children = (
+				D50A713324B99A3900805136 /* BeforeClick */,
+			);
+			path = FrontPage;
+			sourceTree = "<group>";
+		};
+		D50A713324B99A3900805136 /* BeforeClick */ = {
+			isa = PBXGroup;
+			children = (
+				D50A712D24B98BE600805136 /* CustomSearchBar.h */,
+				D50A712E24B98BE600805136 /* CustomSearchBar.m */,
+				D50A70F524B3282D00805136 /* FrontPageViewController.h */,
+				D50A70F624B3282D00805136 /* FrontPageViewController.m */,
+				D50A713B24B9B8F800805136 /* CustomButton.h */,
+				D50A713C24B9B8F800805136 /* CustomButton.m */,
+			);
+			path = BeforeClick;
+			sourceTree = "<group>";
+		};
+		D584CBD624A40DD80031B0E4 = {
+			isa = PBXGroup;
+			children = (
+				D584CBE124A40DD80031B0E4 /* Youtube */,
+				D584CBE024A40DD80031B0E4 /* Products */,
+				01E8BA3599A287266042C3F6 /* Pods */,
+				7B794EB91679D1A9E7B1E0B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D584CBE024A40DD80031B0E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D584CBDF24A40DD80031B0E4 /* Youtube.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D584CBE124A40DD80031B0E4 /* Youtube */ = {
+			isa = PBXGroup;
+			children = (
+				D50A712C24B98B8900805136 /* FrontPage */,
+				D50A711C24B6FD7A00805136 /* AddGuests */,
+				D50A711824B69F3400805136 /* FindPage */,
+				D50A710724B37A9E00805136 /* AddDate */,
+				D584CBE224A40DD80031B0E4 /* AppDelegate.h */,
+				D584CBE324A40DD80031B0E4 /* AppDelegate.m */,
+				D584CBE524A40DD80031B0E4 /* SceneDelegate.h */,
+				D584CBE624A40DD80031B0E4 /* SceneDelegate.m */,
+				D584CBE824A40DD80031B0E4 /* ViewController.h */,
+				D584CBE924A40DD80031B0E4 /* ViewController.m */,
+				D584CBEB24A40DD80031B0E4 /* Main.storyboard */,
+				D584CBEE24A40DDC0031B0E4 /* Assets.xcassets */,
+				D584CBF024A40DDC0031B0E4 /* LaunchScreen.storyboard */,
+				D584CBF324A40DDC0031B0E4 /* Info.plist */,
+				D584CBF424A40DDC0031B0E4 /* main.m */,
+			);
+			path = Youtube;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D584CBDE24A40DD80031B0E4 /* Youtube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D584CBF824A40DDC0031B0E4 /* Build configuration list for PBXNativeTarget "Youtube" */;
+			buildPhases = (
+				782C96186EA92EFD3A07AD0D /* [CP] Check Pods Manifest.lock */,
+				D584CBDB24A40DD80031B0E4 /* Sources */,
+				D584CBDC24A40DD80031B0E4 /* Frameworks */,
+				D584CBDD24A40DD80031B0E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Youtube;
+			productName = Youtube;
+			productReference = D584CBDF24A40DD80031B0E4 /* Youtube.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D584CBD724A40DD80031B0E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Godlowd;
+				TargetAttributes = {
+					D584CBDE24A40DD80031B0E4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = D584CBDA24A40DD80031B0E4 /* Build configuration list for PBXProject "Youtube" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D584CBD624A40DD80031B0E4;
+			productRefGroup = D584CBE024A40DD80031B0E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D584CBDE24A40DD80031B0E4 /* Youtube */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D584CBDD24A40DD80031B0E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D584CBF224A40DDC0031B0E4 /* LaunchScreen.storyboard in Resources */,
+				D584CBEF24A40DDC0031B0E4 /* Assets.xcassets in Resources */,
+				D584CBED24A40DD80031B0E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		782C96186EA92EFD3A07AD0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Youtube-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D584CBDB24A40DD80031B0E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50A710024B32C8F00805136 /* DateCollectionViewController.m in Sources */,
+				D50A711B24B6F52E00805136 /* FindPageHeaderView.m in Sources */,
+				D50A711F24B6FD9E00805136 /* GuestTableViewController.m in Sources */,
+				D50A713D24B9B8F800805136 /* CustomButton.m in Sources */,
+				D50A712B24B7FC2600805136 /* GuestFooterView.m in Sources */,
+				D50A714024BA0F6200805136 /* DateBottomView.m in Sources */,
+				D584CBEA24A40DD80031B0E4 /* ViewController.m in Sources */,
+				D50A70F724B3282D00805136 /* FrontPageViewController.m in Sources */,
+				D50A711524B698C500805136 /* FindPageTableViewCell.m in Sources */,
+				D50A710624B3799C00805136 /* DateHeaderCollectionReusableView.m in Sources */,
+				D584CBE424A40DD80031B0E4 /* AppDelegate.m in Sources */,
+				D584CBF524A40DDC0031B0E4 /* main.m in Sources */,
+				D50A712F24B98BE600805136 /* CustomSearchBar.m in Sources */,
+				D50A711424B698C500805136 /* FindPageTableViewController.m in Sources */,
+				D50A710324B3633500805136 /* CalendarHeaderView.m in Sources */,
+				D50A712824B70F7300805136 /* AddButton.m in Sources */,
+				D50A712524B7085400805136 /* GuestHeaderView.m in Sources */,
+				D584CBE724A40DD80031B0E4 /* SceneDelegate.m in Sources */,
+				D50A712224B6FE7600805136 /* GuestTableViewCell.m in Sources */,
+				D50A70FD24B32A2C00805136 /* DatecellCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D584CBEB24A40DD80031B0E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D584CBEC24A40DD80031B0E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D584CBF024A40DDC0031B0E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D584CBF124A40DDC0031B0E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D584CBF624A40DDC0031B0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D584CBF724A40DDC0031B0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D584CBF924A40DDC0031B0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC241386107E4A23D3CEED61 /* Pods-Youtube.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H75278LLG;
+				INFOPLIST_FILE = Youtube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangshaofei.Youtube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D584CBFA24A40DDC0031B0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D6857A87C92D6E0E18E506B /* Pods-Youtube.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H75278LLG;
+				INFOPLIST_FILE = Youtube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangshaofei.Youtube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D584CBDA24A40DD80031B0E4 /* Build configuration list for PBXProject "Youtube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D584CBF624A40DDC0031B0E4 /* Debug */,
+				D584CBF724A40DDC0031B0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D584CBF824A40DDC0031B0E4 /* Build configuration list for PBXNativeTarget "Youtube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D584CBF924A40DDC0031B0E4 /* Debug */,
+				D584CBFA24A40DDC0031B0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D584CBD724A40DD80031B0E4 /* Project object */;
+}

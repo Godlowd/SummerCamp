@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>8D93D4CA-AF96-4ACB-AB8F-A2199A918BA3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.static</string>
+			<key>fileName</key>
+			<string>8D93D4CA-AF96-4ACB-AB8F-A2199A918BA3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>Masonry-awflhcakettfjwbxawjnluetdduc</string>
+			<key>timeStartedRecording</key>
+			<real>616168789.54984903</real>
+			<key>timeStoppedRecording</key>
+			<real>616168790.06271303</real>
+			<key>title</key>
+			<string>Build target Masonry</string>
+			<key>uniqueIdentifier</key>
+			<string>8D93D4CA-AF96-4ACB-AB8F-A2199A918BA3</string>
+		</dict>
+		<key>EC505A45-1418-4CE0-9EDC-04209215C237</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>EC505A45-1418-4CE0-9EDC-04209215C237.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>Youtube-dfkfndofcpeldahgaxxdmbpalflx</string>
+			<key>timeStartedRecording</key>
+			<real>616209947.80684495</real>
+			<key>timeStoppedRecording</key>
+			<real>616209948.14533603</real>
+			<key>title</key>
+			<string>Build target Youtube</string>
+			<key>uniqueIdentifier</key>
+			<string>EC505A45-1418-4CE0-9EDC-04209215C237</string>
+		</dict>
+		<key>F261C06A-9229-44CA-BCFB-6693A18574F1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.static</string>
+			<key>fileName</key>
+			<string>F261C06A-9229-44CA-BCFB-6693A18574F1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Pods-Youtube-awflhcakettfjwbxawjnluetdduc</string>
+			<key>timeStartedRecording</key>
+			<real>616180003.05380297</real>
+			<key>timeStoppedRecording</key>
+			<real>616180003.06060004</real>
+			<key>title</key>
+			<string>Build target Pods-Youtube</string>
+			<key>uniqueIdentifier</key>
+			<string>F261C06A-9229-44CA-BCFB-6693A18574F1</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>
